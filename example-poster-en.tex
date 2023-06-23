@@ -1,0 +1,53 @@
+\documentclass[11pt, oneside, a4paper]{article}
+\usepackage[cp1251]{inputenc} % encoding
+\usepackage[english]{babel} % English hyphenation
+\usepackage{graphicx}          % to include the graphics
+\usepackage{cite}              % for correct references design 
+\usepackage{pavt-en}                                
+
+\begin{document}
+
+% \title - paper title
+% \authors - authors list
+
+\title{Guidelines for the authors of the PCT conference\\
+for formatting of abstracts for poster presentation
+using \LaTeX\footnote{Acknowledgement for the financial support should be made out as a footnote to the title of the paper.}}
+
+\authors{A.B.~First\superscript{1}, C.D.~Second\superscript{2}}
+\organizations{OrganizationA\superscript{1}, OrganizationB\superscript{2}}
+
+Abstract for poster presentation is one A4 page long and contains plans and initial results of recently started scientific research. In contrast with full and short papers, it does not contain abstract and keyword list. At the same time it may contain figure(s), table(s) and reference list.
+
+Abstract for poster presentation should have size $297 \times 210$~mm. All margins should have the same size of 25~mm. Numbering, forced page breaks and footers are not allowed.
+
+For the title of the poster bold Times New Roman font with 16 pt size and center alignment should be used. Title is separated by one blank line from all the text above.
+
+List of authors appears in 12 pt Times New Roman with center alignment and is separated from the title by a single blank line with 16 pt size. Authors are listed through commas, initials are written before the last name. 
+
+Organization has 12 pt Times New Roman font with center alignment and is separated from the list of authors by one blank line of 6 pt size. Please, specify the official names (not abbreviations) of organizations. If authors work in different organizations, two or more organizations can be listed through commas. In this case author's affiliation is identified by the footnote. 
+
+Times New Roman is used as a default font. Paragraphs are typed by 11 pt font size with width alignment, single line spacing, and automatic hyphenation. Using bold style in the text is undesirable. Paragraphs are not separated by intervals and begin with a 7 mm indented line. 
+
+All figures and tables should have a caption, typed by 10 pt font with top and bottom 6 pt separation and central alignment. Caption to a table is placed above the table, caption to a figure---under the figure. 
+
+Cross-references should be placed in square brackets and listed in ascending order, separated by commas or dashes, for example: \cite{stonebraker}, \cite{stonebraker,yao,roosta},  \cite{stonebraker,cadez}. Reference list is numbered in Arabic numerals with font of 11 pt and with left alignment.
+
+\begin{biblio}
+
+\bibitem{stonebraker}
+Stonebraker~M., Kemnitz~G. The POSTGRES Next-generation Database Management System // Communications of the ACM. 1991. Vol.~34, No.~10. P.~78--92.
+DOI:~\href{http://dx.doi.org/10.1145/125223.125262}{10.1145/125223.125262}.
+
+\bibitem{yao}
+Yao~B., Li~F., Kumar~P. K Nearest Neighbor Queries and kNN-Joins in Large Relational Databases (Almost) for Free // Proceedings of the 26th International Conference on Data Engineering, ICDE~2010, March~1--6, 2010, Long Beach, California, USA. IEEE, 2010. P.~4--15. DOI:~\href{http://dx.doi.org/10.1109/icde.2010.5447837}{10.1109/icde.2010.5447837}.
+
+\bibitem{roosta}
+Roosta~S.H. Parallel Processing and Parallel Algorithms: Theory and Computation. Springer, 2000. 566~p. DOI:~\href{http://dx.doi.org/10.1007/978-1-4612-1220-1}{10.1007/978-1-4612-1220-1}.
+
+\bibitem{cadez}
+Cadez~I., Heckerman~D., Meek~C., et al. Visualization of Navigation Patterns on a Web Site Using Model Based Clustering. Technical Report MSR-TR-00-18. Microsoft Research. 2000. URL:~\href{http://research.microsoft.com/pubs/69752/tr-2000-18.pdf}{http://research.microsoft.com/pubs/69752/tr-2000-18.pdf} (accessed:~13.12.2009).
+
+
+\end{biblio}
+\end{document}
